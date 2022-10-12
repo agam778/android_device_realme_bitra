@@ -37,7 +37,7 @@ RICE_MAINTAINER := Blackmanx
 # package type flag (one word only/no spacing)
 # this will reflect on build/display version, a firmware package/zip name 
 # e.g. riceDroid-7.0-COMMUNITY-device-AOSP.zip - AOSP is the default package type, WITH_GMS will override the package type to PIXEL
-RICE_PACKAGE_TYPE := AOSP
+RICE_PACKAGE_TYPE := PIXEL
 
 # Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
 SUSHI_BOOTANIMATION := 1080
