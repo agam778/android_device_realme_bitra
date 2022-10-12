@@ -27,7 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # chipset flag (one word only/no spacing)
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
 # e.g. property_override("ro.rice.chipset", "Snapdragon 870 5G");
-RICE_CHIPSET := 870
+RICE_CHIPSET := Snapdragon-870
 
 # maintainer flag (one word only/no spacing)
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
@@ -43,7 +43,7 @@ RICE_PACKAGE_TYPE := AOSP
 SUSHI_BOOTANIMATION := 1080
 
 # Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := true/false
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := false
@@ -123,6 +123,9 @@ PRODUCT_SYSTEM_DEVICE := RE879AL1
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3370-user 12 RKQ1.211103.002 R.202209132115 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user-13-TP1A.221005.002-9012097-release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+BUILD_FINGERPRINT := google/redfin/redfin:13/TP1A.221005.002/9012097:user/release-keys
+PRODUCT_OVERRIDE_GMS_FINGERPRINT := google/redfin/redfin:13/TP1A.221005.002/9012097:user/release-keys
