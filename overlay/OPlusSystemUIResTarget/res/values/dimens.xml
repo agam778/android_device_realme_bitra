@@ -22,17 +22,16 @@
     <!-- The text size for battery level -->
     <dimen name="battery_level_text_size">05sp</dimen>
 
-    <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">08dp</dimen>
+ <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">02px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">08dp</dimen>
-
-    <!-- Horizontal padding of the statusbar-->
-    <dimen name="status_bar_horizontal_padding">2.5dp</dimen>
+    <dimen name="status_bar_padding_end">02px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">0dp</dimen>
+    <dimen name="status_bar_padding_top">12px</dimen>
+
+    <dimen name="status_bar_height_landscape">115px</dimen>
 
     <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
     <dimen name="config_rounded_mask_size">97px</dimen>
