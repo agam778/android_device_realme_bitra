@@ -59,7 +59,7 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 
 # GMS build flags, if none were defined the package build type will be AOSP
 WITH_GMS := true
-TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+TARGET_OPTOUT_GOOGLE_TELEPHONY := false
 
 # We took some of Code Linaro optimizations and ported it to AOSP,
 # But due to some stuffs we were not able to make the system parse the device perfconfigstore.xml automatically
@@ -123,9 +123,8 @@ PRODUCT_SYSTEM_DEVICE := RE879AL1
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user-13-TP1A.221005.002-9012097-release-keys" \
+    PRIVATE_BUILD_DESC="RMX3370-user 12 RKQ1.211103.002 R.202209132115 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := google/redfin/redfin:13/TP1A.221005.002/9012097:user/release-keys
-PRODUCT_OVERRIDE_GMS_FINGERPRINT := google/redfin/redfin:13/TP1A.221005.002/9012097:user/release-keys
+BUILD_FINGERPRINT := realme/RMX3370/RE879AL1:12/RKQ1.211103.002/R.202209132115:user/release-keys
