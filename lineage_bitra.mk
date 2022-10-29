@@ -42,7 +42,9 @@ RICE_PACKAGE_TYPE := PIXEL
 # Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
 SUSHI_BOOTANIMATION := 1080
 
-# Graphene Camera
+TARGET_EXCLUDES_AUDIOFX := true
+
+# Graphene Camera 
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
 
 # disable/enable blur support, default is false
