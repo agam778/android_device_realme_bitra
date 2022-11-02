@@ -44,8 +44,8 @@ SUSHI_BOOTANIMATION := 1080
 
 TARGET_EXCLUDES_AUDIOFX := true
 
-# Graphene Camera 
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
+# Aperture camera
+TARGET_BUILD_APERTURE_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := false
