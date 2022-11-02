@@ -19,5 +19,7 @@
     <string name="def_device_name">realme GT Neo2 5G</string>
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple">realme GT Neo2 5G</string>
+    <string name="def_device_name_simple">GT NEO 2</string>
+
+    <integer name="config_vibration_supported_intensity_levels">3</integer>
 </resources>
