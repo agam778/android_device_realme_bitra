@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+# YAAP Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-yaap
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/bitra
