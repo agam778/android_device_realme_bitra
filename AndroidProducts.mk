@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_bitra.mk
+    $(LOCAL_DIR)/yaap_bitra.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_bitra-user \
-    arrow_bitra-userdebug \
-    arrow_bitra-eng
+    yaap_bitra-user \
+    yaap_bitra-userdebug \
+    yaap_bitra-eng
