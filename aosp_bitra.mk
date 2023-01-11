@@ -18,17 +18,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
-ARROW_GAPPS := true
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Next Gen Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 # Inherit from device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, device/realme/bitra/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_bitra
+PRODUCT_NAME := aosp_bitra
 PRODUCT_DEVICE := bitra
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3370
