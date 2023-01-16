@@ -2,8 +2,9 @@
 bluetooth.device.default_name=realme GT Neo2 5G
 
 # Graphics
-ro.surface_flinger.set_idle_timer_ms=4000
-ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_idle_timer_ms=1500
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.set_display_power_timer_ms=1000
 
 # USB
 vendor.usb.product_string=realme GT Neo2 5G
